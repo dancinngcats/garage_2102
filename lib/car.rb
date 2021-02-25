@@ -1,5 +1,6 @@
 class Car
-  attr_reader :color,
+  attr_reader :description,
+              :color,
               :make,
               :model,
               :year
@@ -16,5 +17,4 @@ class Car
   def age
     2021 - @year.to_i
   end
-
 end
